@@ -23,5 +23,8 @@
 	<classpathentry kind="lib" path="jar/poi-ooxml-schemas-4.0.1.jar"/>
 	<classpathentry kind="lib" path="jar/poi-scratchpad-4.0.1.jar"/>
 	<classpathentry kind="lib" path="jar/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="jar/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="jar/curvesapi-1.05.jar"/>
+	<classpathentry kind="lib" path="jar/xmlbeans-3.0.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
