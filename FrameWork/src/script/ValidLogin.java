@@ -8,7 +8,7 @@ import Page.EnterTimeTrackPage;
 import Page.LoginPage;
 import generic.BaseTest;
 import generic.XL;
-
+//valid login
 public class ValidLogin extends BaseTest{
 
 	@Test(priority=1)
