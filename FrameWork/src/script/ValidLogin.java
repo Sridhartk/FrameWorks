@@ -12,7 +12,7 @@ import generic.XL;
 public class ValidLogin extends BaseTest{
 
 	@Test(priority=1)
-	public void testValidLogin()
+	public void testValidLogin() throws InterruptedException
 	{
 		String un=XL.getData(XL_PATH,"ValidLogin",1,0);
 		String pw=XL.getData(XL_PATH,"ValidLogin",1,1);
@@ -21,6 +21,7 @@ public class ValidLogin extends BaseTest{
 		LoginPage lp=new LoginPage(driver);
 		lp.setUserName(un);
 		//Enter valid password
+		Thread.sleep(2000);
 		lp.setPwd(pw);
 		//click login button
 		lp.clickLogin();

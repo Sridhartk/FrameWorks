@@ -10,9 +10,9 @@ import org.testng.Assert;
 import org.testng.Reporter;
 
 public class EnterTimeTrackPage {
-	private final String xp="(//div[contains(text(), 'Settings')])[1]";
-	@FindBy(xpath=xp)
-	private WebElement settings;
+	//private final String xp="(//div[contains(text(),'Settings')])[1]";
+	@FindBy(xpath="(//div[contains(text(),'Settings')])[1]")
+	private WebElement settings1;
 	
 	@FindBy(linkText="Licenses")
 	private WebElement licenses;
@@ -24,7 +24,7 @@ public class EnterTimeTrackPage {
 	
 	public void clicksettings()
 	{
-		settings.click();
+		settings1.click();
 	}
 	
 	public void clickLicenses()

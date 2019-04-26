@@ -5,8 +5,8 @@
     <classes>
       <class name="script.CheckIssuseDate">
         <methods>
-          <include name="testIssuseDate"/>
           <include name="OpenApp"/>
+          <include name="testIssueDate"/>
           <include name="closeApp"/>
         </methods>
       </class> <!-- script.CheckIssuseDate -->
